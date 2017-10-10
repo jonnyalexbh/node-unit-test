@@ -30,32 +30,27 @@ Se describen las operaciones expuesta por la api y como hacer uso de ellas.
 La api maneja un solo recurso denominado ***books***. Inicialmente la api cuenta con data que permmite probar las operaciones con metodo GET. Estas las diferentes operaciones que se pueden hacer sobre el recurso ***books***
 
 ### Get All Books
-#### URL 
+##### URL 
 http://localhost:3000/dsh/api/v1/books
-#### METHOD
+##### METHOD
 GET
-#### HEADERS
+##### HEADERS
 [Accept:application/json]
 
 ### Get Book By Id
-#### URL
+##### URL
 http://localhost:3000/dsh/api/v1/books/{id}
-#### METHOD
+##### METHOD
 GET
-#### HEADERS
+##### HEADERS
 [Accept:application/json]
 
 ### Create Book
-#### URL
+##### URL
 http://localhost:3000/dsh/api/v1/books
-#### METHOD
+##### METHOD
 POST
-#### HEADERS
+##### HEADERS
 [Accept:application/json, Content-Type:application/json]
-#### REQUEST
-{
-  "title": "test1",
-  "author": "Jose Rivas",
-  "year": "2010",
-  "edition": "test1"  
-}
+##### REQUEST
+{ "title": "test1", "author": "Jose Rivas", "year": "2010", "edition": "test1" }
