@@ -35,19 +35,12 @@ La api maneja un solo recurso denominado ***books***. Inicialmente la api cuenta
 **HEADERS:** [Accept:application/json]  
 
 ### Get Book By Id
-##### URL
-http://localhost:3000/dsh/api/v1/books/{id}
-##### METHOD
-GET
-##### HEADERS
-[Accept:application/json]
+**URL:** http://localhost:3000/dsh/api/v1/books/{id}  
+**METHOD:** GET  
+**HEADERS:** [Accept:application/json]  
 
 ### Create Book
-##### URL
-http://localhost:3000/dsh/api/v1/books
-##### METHOD
-POST
-##### HEADERS
-[Accept:application/json, Content-Type:application/json]
-##### REQUEST
-{ "title": "test1", "author": "Jose Rivas", "year": "2010", "edition": "test1" }
+**URL:** http://localhost:3000/dsh/api/v1/books  
+**METHOD:** POST  
+**HEADERS:** [Accept:application/json, Content-Type:application/json]  
+**REQUEST:** { "title": "test1", "author": "Jose Rivas", "year": "2010", "edition": "test1" }  
