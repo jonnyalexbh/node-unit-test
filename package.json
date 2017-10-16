@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-	"dev": "nodemon ./bin/www"
+    "dev": "nodemon ./bin/www",
+   	"test": "mocha --recursive"    
   },
   "dependencies": {
     "body-parser": "~1.17.1",
@@ -15,9 +16,12 @@
     "morgan": "~1.8.1",
     "serve-favicon": "~2.4.2",
     "express-jsonschema": "^1.1.6",
-    "mysql": "^2.13.0"		
+    "mysql": "^2.13.0"
   },
   "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^4.0.1",
     "nodemon": "^1.11.0"
-  }  
+  }
 }
