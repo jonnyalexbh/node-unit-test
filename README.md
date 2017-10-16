@@ -11,7 +11,7 @@ git clone https://github.com/josearivas/node-unit-test.git
 ```
 
 ### Configuracion
-Dirigirse al directorio raiz del proyecto y descagar las dependencias
+Dirigirse al directorio raiz del proyecto y descargar las dependencias
 ```
 npm install
 ```
