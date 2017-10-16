@@ -27,7 +27,7 @@ La api estara expuesta en el hostname **localhost** y el puerto **3000**
 ## Prueba de la api REST
 Se describen las operaciones expuesta por la api y como hacer uso de ellas.
 
-La api maneja un solo recurso denominado ***books***. Inicialmente la api cuenta con data que permmite probar las operaciones con metodo GET. Estas son las diferentes operaciones que se pueden hacer sobre el recurso ***books***
+La api contiene un solo recurso denominado ***books***. Inicialmente la api cuenta con data que permmite probar las operaciones con metodo GET. Estas son las diferentes operaciones que se pueden hacer sobre el recurso ***books***
 
 ### Get All Books
 **Url:** http://localhost:3000/dsh/api/v1/books  
