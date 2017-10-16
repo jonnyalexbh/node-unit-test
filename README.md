@@ -43,4 +43,10 @@ La api maneja un solo recurso denominado ***books***. Inicialmente la api cuenta
 **Url:** http://localhost:3000/dsh/api/v1/books  
 **Method:** POST  
 **Headers:** [Accept:application/json, Content-Type:application/json]  
-**Request:** { "title": "test1", "author": "Jose Rivas", "year": "2010", "edition": "test1" }  
+**Request:** { "title": "test1", "author": "Jose Rivas", "year": "2010", "edition": "test1" }
+
+## Pruebas Unitarias con Mocha y Chai Framework
+Dirigirse al directorio raiz y ejecutar las pruebas unitarias
+```
+npm test
+```
