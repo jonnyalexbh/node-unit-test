@@ -1,5 +1,5 @@
-# API Rest con Express y Unit Test con Mocha y Chai
-Implementacion de pruebas unitarias a traves de los frameworks Mocha y Chai en una API Rest con Express
+# API REST con Express y Unit Test con Mocha y Chai
+Implementacion de pruebas unitarias a traves de los frameworks Mocha y Chai en una API REST con Express
 
 ## Instalacion, configuracion y ejecucion
 Las siguientes intrucciones permiten probar la api de forma local
@@ -17,14 +17,14 @@ npm install
 ```
 
 ### Ejecucion
-Iniciar la aplicacion que expone la API Rest
+Iniciar la aplicacion que expone la API REST
 ```
 npm start
 ```
 
 La api estara expuesta en el hostname **localhost** y el puerto **3000**
 
-## Prueba de la api node-unit-test
+## Prueba de la api REST
 Se describen las operaciones expuesta por la api y como hacer uso de ellas.
 
 La api maneja un solo recurso denominado ***books***. Inicialmente la api cuenta con data que permmite probar las operaciones con metodo GET. Estas son las diferentes operaciones que se pueden hacer sobre el recurso ***books***
