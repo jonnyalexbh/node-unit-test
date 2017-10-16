@@ -2,7 +2,7 @@
 Implementacion de pruebas unitarias a traves de los frameworks Mocha y Chai en una API Rest con Express
 
 ## Instalacion, configuracion y ejecucion
-Las siguientes intrucciones permiten probar la api node-unit-test de forma local
+Las siguientes intrucciones permiten probar la api de forma local
 
 ### Instalacion
 Clonar el proyecto node-unit-test en un directorio local
@@ -17,7 +17,7 @@ npm install
 ```
 
 ### Ejecucion
-Ejecutar la aplicacion con Express que expone la API Rest
+Iniciar la aplicacion que expone la API Rest
 ```
 npm start
 ```
