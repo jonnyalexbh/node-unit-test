@@ -7,29 +7,27 @@ chai.use(require('chai-http'));
  
 var app = require('../app');
 var basePath = '/dsh/api/v1';
-
-console.log('Inicio de Test');
  
-describe('API endpoint /books', function() {  
-  this.timeout(5000); // How long to wait for a response (ms)
+describe('Beginning API Test books', function() {  
+  //this.timeout(5000); // How long to wait for a response (ms)
  
   before(function() {
  
   });
  
-  after(function() {
- 
-  });
+  after(function() {            
+      process.exit(0);
+  });    
  
   // GET - List all books
   it('should return all books', function() {
-    return chai.request(app)
+      return chai.request(app)
       .get(basePath + '/books')
       .then(function(res) {
         expect(res).to.have.status(200);
         expect(res).to.be.json;                
-        expect(res.body).to.be.an('array');
-      });
+        expect(res.body).to.be.an('array');          
+      });      
   });
     
   // GET - Book by Id
@@ -57,7 +55,7 @@ describe('API endpoint /books', function() {
         expect(res).to.have.status(201);
         expect(res).to.be.json;
         expect(res.body).to.be.an('object');
-        expect(res.body).to.have.property('id');        
+        expect(res.body).to.have.property('id');			
       });
   });    
 });
